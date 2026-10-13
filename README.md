@@ -1,82 +1,67 @@
-# Local Manual Maker（LMM）
-
-Windows操作から、スクリーンショット付きの手順書・作業エビデンスを作成するWindows向けアプリです。
-
-**ローカル完結 / Word・Excel対応 / 買い切り6,800円**
-
-## 主な特徴
-
-- Windows操作をスクリーンショット付きで記録
-- Word / Excel形式で手順書を出力
-- 既存のWord / Excelテンプレートを利用可能
-- 操作画像と結果画像を記録
-- Excelの複数シート出力に対応
-- Ctrl+C / Ctrl+V / Ctrl+Xの操作記録
-- 作業エビデンス向け出力
-- 記録後に必要な場合だけローカルAIで説明文を補助
-- Windows 10 / 11対応
-- Windows Server 2019 / 2022 / 2025 Desktop Experience対応
-- RDP環境でも利用可能
-
-## ローカル完結
-
-Local Manual Makerは、操作記録・スクリーンショット・編集・ローカルAI処理・Word / Excel出力まで主要な処理をPC内で行います。
-
-記録した内容やAI処理対象を、LMMから外部クラウドへ送信しません。
-
-主要機能はインターネット接続なしでも利用できます。
-
-## Microsoft Store
-
-製品版はMicrosoft Storeで販売しています。
-
-**価格：6,800円（税込） / 買い切り**
-
-[Microsoft StoreでLocal Manual Makerを購入](https://apps.microsoft.com/detail/9pk1mpzr9f85?hl=ja-JP&gl=JP)
-
-## 評価版
-
+Local Manual Maker（LMM）
+IT運用担当者、オペレーター、講師など、Windowsの操作手順を伝える資料を作る方へ。
+Local Manual Makerは、操作のたびにスクリーンショットを撮って貼り付ける作業を、操作記録から手順書を作る流れに置き換えるWindowsアプリです。
+記録した画像と説明文を確認・編集して、Word・Excel形式の手順書や作業エビデンスを作成できます。
+ローカル完結を重視 ／ Word・Excel出力 ／ 買い切り6,800円（税込）
+公式サイト
+https://falling-bush-c460.lmm-host.workers.dev/
+使う場面
+・定期作業やシステム運用の操作手順を残す
+・担当者交代に向けた引き継ぎ資料を作る
+・研修や講習で配布する操作マニュアルを作る
+・実施した操作をスクリーンショット付きの作業エビデンスとして残す
+手順書を作る流れ
+1. Windows上の操作を記録する
+2. LMMの編集画面で、画像と説明文を確認する
+3. 必要な説明や手順を追加・修正する
+4. Word・Excel形式で出力する
+主な機能
+・クリック操作をスクリーンショット付きで記録
+・記録した説明文の編集、手順の並べ替え・除外
+・Manual Stepによる手順や補足の追加
+・Word・Excel形式の手順書出力
+・設定したWord・Excelテンプレートを利用した出力
+・操作画像と結果画像の記録
+・Excelの複数シート出力
+・Ctrl+C／Ctrl+V／Ctrl+Xの操作記録
+・作業エビデンス向け出力
+・記録後、必要な場合だけローカルAIによる説明文の生成・補正
+テンプレート出力は、所定のプレースホルダーなどの設定が必要です。すべての既存様式をそのまま利用できることや、レイアウトの完全な再現を保証するものではありません。
+ローカル完結
+操作記録・スクリーンショット・編集・ローカルAI処理・Word／Excel出力まで、主要な処理をPC内で行います。
+記録した内容やAI処理対象を、LMMから外部クラウドへ送信しません。主要機能はインターネット接続なしでも利用できます。
+アプリのダウンロード、Microsoft Storeからの取得・更新などには、インターネット接続が必要です。
+2.0のVision補正
+記録した画面を見ながら操作の説明を整えたいときに、ローカルAIによるVision補正を利用できます。
+画面から操作対象の候補を提案し、内容を確認して「提案を採用」を選ぶまで、元の説明文は変更されません。
+AIの利用は任意です。提案内容は利用者が確認し、必要に応じて修正してください。処理時間はPCの性能や画像などの条件によって変わります。
+2.0の紹介
+https://falling-bush-c460.lmm-host.workers.dev/#v20-major
+評価版
 購入前に、1プロジェクトあたり7ステップまで利用できる評価版をお試しいただけます。
-
-[Local Manual Maker Version 1.1.3 評価版をダウンロード](https://pub-fec03b8f21c8471d9d533db88a97c5d1.r2.dev/LocalManualMaker-Trial-1.1.3-win-x64.zip)
-
-## デモ動画
-
-[YouTubeでデモを見る](https://www.youtube.com/watch?v=3y9Uok3WUdU)
-
-## 公式サイト
-
-[Local Manual Maker 公式サイト](https://falling-bush-c460.lmm-host.workers.dev/)
-
-## 動作環境
-
-- Windows 10 Build 19044以降
-- Windows 11
-- 64-bit x64
-- Windows Server 2019 / 2022 / 2025 Desktop Experience
-- RDP対応
-- メモリ 8GB以上を目安
-- 16GB以上推奨
-- GPU必須ではありません
-
-Server Core / Nano Server / ヘッドレス環境、32-bit Windows、Windows ARMは対象外です。
-
-## Version
-
-Current version: **1.1.3**
-
-## Contact
-
-お問い合わせ：
-
-localmanualmaker.support@gmail.com
-
----
-
-## About this repository
-
-This repository is used for product information, release notes, and documentation for Local Manual Maker.
-
-Local Manual Maker is proprietary software.
-
-The application source code is not distributed from this repository.
+ご利用のPCで操作記録・編集・Word／Excel出力を確認してから、製品版をご検討ください。
+評価版のダウンロード方法と最新の動作環境は、公式サイトをご確認ください。
+評価版の案内
+https://falling-bush-c460.lmm-host.workers.dev/
+Microsoft Store
+製品版はMicrosoft Storeで販売しています。
+価格：6,800円（税込）／買い切り
+https://apps.microsoft.com/detail/9pk1mpzr9f85?hl=ja-JP&gl=JP
+使い方
+操作記録からExcel手順書を作る流れを、公式サイトで紹介しています。
+https://falling-bush-c460.lmm-host.workers.dev/guide-excel
+デモ動画
+https://www.youtube.com/watch?v=3y9Uok3WUdU
+動作環境
+・Windows 10 Build 19044以降／Windows 11
+・64-bit x64
+Windows Server・RDP環境での利用条件、AI機能の注意点など、詳しい動作環境は公式サイトと配布物のREADMEをご確認ください。
+Server Core／Nano Server／ヘッドレス環境、32-bit Windows、Windows ARMは対象外です。
+バージョン
+製品案内バージョン：2.0
+最新の配布情報は公式サイトをご確認ください。
+お問い合わせ
+LMM_host@outlook.com
+このリポジトリについて
+このリポジトリは、Local Manual Makerの製品情報、リリース情報、ドキュメントを案内するためのものです。
+Local Manual Makerはプロプライエタリソフトウェアです。このリポジトリでは、アプリケーションのソースコードを配布していません。
